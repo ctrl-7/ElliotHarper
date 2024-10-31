@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Elliot Harper</title>
+    <script src="//cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-orange-950 text-white font-sans antialiased">
+    <!-- Header -->
+    <header class="flex items-center justify-between p-6 bg-orange-950">
+        <h1 class="text-2xl font-bold text-orange-500">Elliot Harper</h1>
+        <nav>
+            <a href="/" class="mx-4 hover:text-orange-500">Home</a>
+            <a href="/about" class="mx-4 hover:text-orange-500">About</a>
+            <a href="/projects" class="mx-4 hover:text-orange-500">Projects</a>
+            <a href="/recommendations" class="mx-4 hover:text-orange-500">Recommendations</a>
+            <a href="/contact" class="mx-4 hover:text-orange-500">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="py-20 px-8 bg-orange-950 text-center">
+        <h2 class="text-4xl font-bold text-orange-500 mb-8">Get in Touch</h2>
+        <p class="text-lg max-w-2xl mx-auto mb-8">
+            Whether you're interested in collaborating on a project or just want to say hello, feel free to reach out!
+        </p>
+
+        <!-- Contact Form -->
+        <form action="#" method="POST" class="max-w-lg mx-auto bg-orange-900 p-8 rounded-lg">
+            <div class="mb-6">
+                <label for="name" class="block text-left text-orange-500 font-semibold mb-2">Name</label>
+                <input type="text" id="name" name="name" required
+                    class="w-full px-4 py-2 rounded bg-orange-950 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500">
+            </div>
+            <div class="mb-6">
+                <label for="email" class="block text-left text-orange-500 font-semibold mb-2">Email</label>
+                <input type="email" id="email" name="email" required
+                    class="w-full px-4 py-2 rounded bg-orange-950 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500">
+            </div>
+            <div class="mb-6">
+                <label for="message" class="block text-left text-orange-500 font-semibold mb-2">Message</label>
+                <textarea id="message" name="message" rows="5" required
+                    class="w-full px-4 py-2 rounded bg-orange-950 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500"></textarea>
+            </div>
+            <button type="submit" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg transition">
+                Send Message
+            </button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-orange-950 text-center">
+        <p class="text-sm text-gray-400">
+            &copy; 2024 Elliot Harper. All Rights Reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
